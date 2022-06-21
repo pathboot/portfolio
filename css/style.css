@@ -6,6 +6,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     background-image: url(https://jessicaroots.com/wp-content/uploads/et_temp/portfolio-background-header-53082_1080x675.jpg);
+    background-attachment: fixed;
   }
 
   .navbar .navbar-nav {
@@ -14,14 +15,13 @@ body {
     vertical-align: top;
     
   }
-  
   .navbar .navbar-collapse {
     text-align: center;
   }
 .navbar {
     text-align: center;
 }
-.row {
+#tab {
         background: rgba(43, 42, 42, 0.521);
         border-style: solid;
         border-color: white;
@@ -30,7 +30,32 @@ body {
 .row p {
     color: aliceblue;
 }
-.row h2 {
+.row h2, h3 {
     color: cadetblue;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    background: rgba(43, 42, 42, 0.521);
+  }
+  .grid-item {
+    border: 2px solid white;
+    padding: 20px;
+    font-size: 18px;
+    text-align: left;
+    
+  }
+  .grid-item li {
+    color: aliceblue;
+    
+  }
+  .grid-item h3 {
+    color: aliceblue;
+    color: cadetblue;
+  }
+
+
+
             
