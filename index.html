@@ -2,30 +2,38 @@
 <html>
     <head>
         <link rel="stylesheet" href="./css/style.css">
-        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <script src="https://kit.fontawesome.com/3985baec93.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <Title>Checkpoint HTML Gomycode - Portfolio</Title>
-        <link rel="stylesheet" href="./css/style.css">
     </head>
+    <!--body start-->
         <body>
-            <header>
-            <div id="navbar" class="navbar" >
-                <nav> 
-                    <a href="#home">Home</a> | <a href="#about">About</a> | <a href="#work">Work</a> | <a href="#resume">Resume</a> | <a href="#contact">Contact</a>
-                </nav>
-            </div>
-            <h1 style="text-align:center;">Checkpoint HTML Gomycode - Portfolio</h1>
-            </header>
+            <!--bootstrap nav bar start-->
+            <nav id="navbar" class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <ul class="nav navbar-nav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <!--bootstrap nav bar end-->
         <!--home div-->
             <div class="home">
-            <section id="home">
+            <section>
+                <h1>Checkpoint Portfolio HTML-CSS-BOOTSTRAP</h1>
+                <img src="./res/avatar.png" width="250px" alt="smail avatar">
                 <h2>Smail Mohamed Portfolio</h2>
             </section>
         </div>
         <!--end home div-->
-
-            <div id="main">
-                <div class="info">
-                <section>
+            <div class="container">
+                <div class="row">
+                <div class="col-sm-8">
+                <section id="about">
                 <article>
                 <h2>About :</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
@@ -38,16 +46,17 @@
                     odio blandit, volutpat elit a, laoreet elit.
                     Sed scelerisque ipsum vitae lorem feugiat, vel ornare augue sodales. Vivamus dictum risus dolor, finibus commodo orci molestie nec. Vestibulum et pellentesque 
                     diam. Aenean ac volutpat lorem, eu facilisis sapien. Duis bibendum euismod sollicitudin. Integer volutpat metus in lobortis congue. Nam non posuere magna. 
-                    Nunc faucibus velit ac luctus malesuada. Quisque ut scelerisque turpis. Integer feugiat enim risus, vitae consequat est ultrices at.
-                    Sed id egestas massa. Fusce tincidunt eget diam eu viverra. Nulla mauris lectus, convallis sit amet tristique lacinia, efficitur id nisi. Pellentesque 
-                    pharetra malesuada sagittis. Nulla nec ligula posuere mauris finibus luctus vitae vitae quam. Nulla velit arcu, placerat at ante id, aliquet tempor lorem. 
-                    Maecenas sit amet rutrum leo, congue bibendum eros. Cras sit amet suscipit mauris.
-                    Ut vitae consequat augue. Etiam ut magna at velit faucibus congue a nec elit. Nunc feugiat nisi nec vestibulum commodo. Phasellus nec auctor tortor. 
-                    Integer venenatis ipsum quis quam efficitur porttitor. Sed varius augue dolor, at ultrices eros ultricies ut. Vivamus ac convallis nunc. Nam nec fringilla quam. Sed eget tortor tellus. Fusce rhoncus dignissim aliquet. Sed sit amet gravida nisi. Duis nec tempor risus. Vivamus euismod est quis porttitor sollicitudin. Suspendisse tincidunt tristique luctus.</p>
+                    Nunc faucibus velit ac luctus malesuada. Quisque ut scelerisque turpis. Integer feugiat enim risus, vitae consequat est ultrices at.</p>
                 </article>
                 </section>
+                </div>
+            <div class="col-sm-2">
+                <img src="./res/about.png" alt="about us" style="margin-top:30px">
             </div>
-            <div class="info">
+            </div>
+
+            <div class="row">
+            <div class="col-sm-8">
             <section id="work">
             <article>
                 <h2>Work :</h2>
@@ -62,16 +71,17 @@
                     in lacus. Suspendisse diam dui, pretium sed consectetur at, sagittis tincidunt ex. Fusce sollicitudin finibus eros, rhoncus commodo elit venenatis ut.
                     Sed scelerisque nibh at nibh egestas, eu mattis massa porta. Maecenas mollis felis sed accumsan vestibulum. Sed accumsan et lacus ac imperdiet. Curabitur 
                     eget ex et eros gravida ultricies. In vulputate, justo a pulvinar pharetra, sem mi ornare dolor, sit amet varius ipsum purus quis nunc. Sed vestibulum sapien 
-                    non odio molestie mollis. Phasellus sit amet erat vehicula sapien aliquam tincidunt. Etiam sit amet sodales magna.
-                    Aliquam consectetur arcu justo, a sodales felis sollicitudin in. Sed velit enim, luctus nec enim ut, luctus consectetur ex. 
-                    Phasellus ultrices dapibus lectus sed facilisis. Quisque vehicula, massa at interdum aliquam, justo est viverra lacus, quis tempus dui mauris congue turpis. 
-                    Mauris a est sit amet odio aliquet cursus eget et est. Donec eu elit a tellus aliquet maximus. Quisque pharetra laoreet arcu ultricies consectetur. 
-                    Sed scelerisque, mauris imperdiet consequat eleifend, eros turpis eleifend eros, in egestas nibh tellus eu orci. In velit urna, commodo eu velit in, 
-                    tristique eleifend purus. Donec vitae aliquet arcu. Donec pretium, risus eu interdum commodo, tellus erat commodo dolor, nec lacinia lectus erat ac velit.</p>
+                    non odio molestie mollis. Phasellus sit amet erat vehicula sapien aliquam tincidunt. Etiam sit amet sodales magna.</p>
                 </article>
             </section>
-            </div>
-            <div class="info">
+        </div>
+        <div class="col-sm-2">
+            <img src="./res/work.png" alt="work" style="max-width:300px; margin-left: 20px; margin-top: 30px;">
+        </div>
+    </div>
+
+    <div class="row">
+            <div class="col-sm-8">
             <section id="resume">
                 <article>
                 <h2>Resume :</h2>
@@ -84,71 +94,66 @@
                     a malesuada est vulputate. Donec pulvinar quis magna ut tincidunt. Integer consectetur id odio pharetra vehicula. Nam viverra iaculis vestibulum. Suspendisse 
                     accumsan lacus mi, eget dignissim odio consequat at. Curabitur eleifend massa eu ex maximus, nec ullamcorper ex accumsan. Suspendisse sed tortor dolor. 
                     Maecenas cursus nisi tempus velit convallis, ut porta lectus vestibulum. Praesent id elit massa. Vivamus consectetur vitae ex in faucibus.
-                    Suspendisse tincidunt ante dapibus, pulvinar augue eget, porttitor neque. Nullam enim erat, condimentum ut lorem non, euismod interdum neque. Nunc ac 
-                    sapien eu quam iaculis eleifend in sit amet leo. Nulla mollis lorem id sem venenatis, id auctor felis maximus. Integer posuere nunc at lacus convallis, 
-                    sit amet ultrices erat sodales. Praesent sed erat sit amet tortor facilisis posuere. In dictum ultrices nunc, vel congue odio vulputate eu. Donec non lectus 
-                    tincidunt, congue mi sit amet, dignissim urna. Morbi et hendrerit odio. Integer iaculis magna lacus, id porttitor nulla venenatis quis. Pellentesque molestie 
-                    nunc justo, vel congue lectus consectetur vitae. Vestibulum pretium nunc non erat eleifend, sit amet efficitur dui porttitor.
-                    Cras sollicitudin efficitur lectus, non pretium libero mattis nec. Nunc condimentum diam ut sem pharetra posuere. Mauris blandit, nisl et ultrices mattis, 
-                    risus mi bibendum erat, eget vestibulum orci eros feugiat libero. Curabitur suscipit enim magna, id mollis orci placerat ac. Vestibulum molestie mi sem, nec 
-                    volutpat nulla viverra id. Nullam eu ipsum ac ipsum suscipit porta semper et sem. Maecenas quis gravida arcu. Maecenas elementum faucibus sagittis.</p>
+                    Suspendisse tincidunt ante dapibus, pulvinar augue eget, porttitor neque. Nullam enim erat, condimentum ut lorem non, euismod interdum neque.</p>
                 </article>
             </section>
-            </div>
+    </div>
+    <div class="col-sm-2">
+        <img src="./res/resume.png" alt="work" style="max-width:300px; margin-left: 20px; margin-top: 30px;">
+    </div>
+        </div>
             <div class="sidebar">
                 <aside>
-                        <h3>Skills :</h3>
+                        
+                </aside>
+            </div>
+
+        <!--aisde and div-->
+
+        <div class="vid" style="text-align:center;">
+        
+        </div>
+        <div style="text-align:center;">
+        
+        </div>
+    </div>
+        <hr>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Skills :</h3>
                     <ul>
                         <li>Creation Website with CMS</li>
                         <li>Server Installation and optimisation</li>
                         <li>Search Engine Optimisation (white hat SEO / black hat seo)</li>
-                        <li>Imacro web automation</li>
+                        <li>Imacro web automation / data scraping</li>
                         </ul>
-                </aside>
-            </div>
         </div>
-        </div>
-        <!--aisde and div-->
 
-        <div class="vid" style="text-align:center;">
-        <h3>Intro to Web Dev</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/EP9QMdoXvXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="col-sm-4">
+            <h3>Intro to Web Dev</h3>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/EP9QMdoXvXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div style="text-align:center;">
-        <h3>HTML5 audio test</h3>
-        <audio controls>
-            <source src="./res/weird-symphonic-transition-sound.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-          </audio>
+
+        <div class="col-sm-4">
+            <h3>HTML5 audio test</h3>
+            <audio controls>
+                <source src="./res/weird-symphonic-transition-sound.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
         </div>
-        <hr>
-        <!--contact section adn div-->
-        <section id="contact">
-        <div style="text-align: center;">
-                <h2>Contact</h2>
-                <form action="#">
-                    <label for="name">First Name</label>
-                    <input type="text" id="name" name="firstname" placeholder="Your First name.."><br><br>
-                    <label for="lastn">Last Name</label>
-                    <input type="text" id="lastn" name="lastname" placeholder="Your Last name.."><br><br>
-                    <label for="mail">E-Mail</label>
-                    <input type="email" id="mail" name="email" placeholder="Your E-Mail.."><br><br>
-                    <label for="subject">Subject</label><br>
-                    <textarea id="subject" name="subject" placeholder="Subject.." style="height:150px; width:300px;"></textarea>
-                </form>
-            </div>
-            </section>
-        
-        <!-- end main div -->
-        <hr>
+
+    </div>
+
+</div>
         <!-- footer div -->
         <div id="footer" style="text-align: center;">
             <footer>
                 <h3>Social links :</h3>
-                <a href="#">Facebook</a>
-                <a href="#">Instagram</a>
-                <a href="#">Twitter</a>
-                <a href="#">Youtube</a>
+                <a href="#"><i class="fa-brands fa-facebook-square fa-4x"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram-square fa-4x"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter-square fa-4x"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube-square fa-4x"></i></a>
                 <br><br>
                 <a href="#navbar">Go to Top</a>
             </footer>
