@@ -5,8 +5,11 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    background-image: url(https://jessicaroots.com/wp-content/uploads/et_temp/portfolio-background-header-53082_1080x675.jpg);
+    background-image: url(https://wallpaperbat.com/img/144458-web-developer-wallpaper-1920x1080-wallpaper.jpg);
     background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .navbar .navbar-nav {
@@ -22,7 +25,7 @@ body {
     text-align: center;
 }
 #tab {
-        background: rgba(43, 42, 42, 0.521);
+        background: rgba(22, 22, 22, 0.705);
         border-style: solid;
         border-color: white;
         margin: 5%;
@@ -31,14 +34,14 @@ body {
     color: aliceblue;
 }
 .row h2, h3 {
-    color: cadetblue;
+    color: rgba(53, 138, 236, 0.925);
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 5px;
-    background: rgba(43, 42, 42, 0.521);
+    background: rgba(22, 22, 22, 0.705);
   }
   .grid-item {
     border: 2px solid white;
@@ -53,9 +56,29 @@ body {
   }
   .grid-item h3 {
     color: aliceblue;
-    color: cadetblue;
+    color: rgba(53, 138, 236, 0.925);
   }
-
+  .home h1 {
+    color:white;
+  }
+ .containe-fluid {
+  background-color: rgba(22, 22, 22, 0.705);
+ }
+ .containe-fluid h3 {
+  color: white;
+ }
+.form-label {
+  color: white;
+ }
+ footer {
+  text-align: center;
+ }
+ footer h3 {
+  color: white;
+ }
+ footer a {
+  color:white;
+ }
 
 
             
